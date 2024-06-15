@@ -17,6 +17,17 @@ myaccount += 5000;
 
 console.log("단위추가", myaccount, "데이터타입은?", typeof myaccount);
 
+const mynavi = ["네이버","다음","구글"];
+const mynaiobj = {
+    title : "네이버",
+    daum : "다음",
+    google : "구글"
+
+}
+
+
+
+console.log(mynavi[0], mynaiobj["naver"], mynaiobj.naver);
 
 
  
